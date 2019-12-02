@@ -2,9 +2,9 @@
 class Mailchain < Formula
   desc "Secure, email-like messaging for blockchain addresses and accounts"
   homepage "https://mailchain.xyz"
-  url "https://github.com/mailchain/mailchain/releases/download/v0.0.37/mailchain-v0.0.37-macOS-64bit.tar.gz"
-  version "0.0.37"
-  sha256 "cc0546722752746c128e18781c6135b1be04cf37b51179707fd92a4794518f70"
+  url "https://github.com/mailchain/mailchain/releases/download/v0.0.38/mailchain-v0.0.38-macOS-64bit.tar.gz"
+  version "0.0.38"
+  sha256 "f07d9ab14f8df19a425c0d8ca18421c2bffa5e77118cb0b820cee85e2d6d5f81"
 
   def install
     bin.install "mailchain"
