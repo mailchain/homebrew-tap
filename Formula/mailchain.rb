@@ -2,16 +2,16 @@
 class Mailchain < Formula
   desc "Secure, email-like messaging for blockchain addresses and accounts"
   homepage "https://mailchain.xyz"
-  version "0.0.68"
+  version "0.0.69"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/mailchain/mailchain/releases/download/v0.0.68/mailchain-v0.0.68-macOS-64bit.tar.gz"
-    sha256 "588cc2b4e17258ee704545a080c821d7087cee79cce1c832247b384e4df7b338"
+    url "https://github.com/mailchain/mailchain/releases/download/v0.0.69/mailchain-v0.0.69-macOS-64bit.tar.gz"
+    sha256 "06446f2e697e4b90bc9d6e7f62860fb672b60a24832be11756b9f6aaa163fa07"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/mailchain/mailchain/releases/download/v0.0.68/mailchain-v0.0.68-Linux-64bit.tar.gz"
-      sha256 "2d0428bcf3e1b64aa85c393a835117677fd05cedcaff993a0c1840397c48e80c"
+      url "https://github.com/mailchain/mailchain/releases/download/v0.0.69/mailchain-v0.0.69-Linux-64bit.tar.gz"
+      sha256 "0a74b3c144cf9bbf4a759b1ae354b92aa202a732ee3725e6a29835e680e02d94"
     end
   end
 
